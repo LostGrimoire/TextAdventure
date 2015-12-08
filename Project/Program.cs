@@ -5,6 +5,7 @@
 /// 1. Create Room/Cell class
 /// 2. Create Event class
 /// 3. Create monster class
+/// OH, level retension is intentional.
 using System;
 using System.Collections.Generic;
 using System.Linq;
