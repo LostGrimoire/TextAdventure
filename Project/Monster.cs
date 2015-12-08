@@ -148,7 +148,7 @@ namespace Project
     // Demon Lord is the end game boss
     class Boss : Creature
     {
-        public Boss() // rediculously strong
+        public Boss() // strong, but not too strong
         {
             this.name = "Demon Lord";
             this.description = "The terrible Demon Lord stands before you." +
@@ -164,7 +164,7 @@ namespace Project
     {
         public Demon()
         {
-            this.name = "Demon Vassal";
+            this.name = "Demon Vassal"; // secret brother-in-law
             this.description = "A tough looking demon glares at you, hardly hiding their ill intent.";
             this.Health = 200;
             this.TotalHP = 200;

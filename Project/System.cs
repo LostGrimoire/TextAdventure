@@ -24,7 +24,5 @@ namespace Project
         {
             return currentRoom.getWinFlag();
         }
-
-        // do thing
     }
 }

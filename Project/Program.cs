@@ -1,5 +1,5 @@
 ﻿
-/// Project "Text Adventure" CS111
+/// Project "Text Adventure" CS155
 /// Author: Peter Olivares
 /// Process:
 /// 1. Create Room/Cell class
@@ -109,8 +109,8 @@ namespace Project
             text3 = "You make it to sturdier lumber and continue to a \ngreat hall.";
             story.Add(new Event(text1, text2, text3));
             // sneak low
-            text1 = "You creep around and find yourself quite near the Great Hall. You see a library not" +
-                "\nfar from where you are. Investigate?" + 
+            text1 = "You creep around and find yourself quite near the " + 
+                "\nGreat Hall. You see a library not far from where \nyou are. Investigate?" + 
                 "\n[1] Nah, books are dumb [2] Sure";
             text2 = "You ignore it and walk into the great hall.";
             text3 = "You walk into the old musty library.";
